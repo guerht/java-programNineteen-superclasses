@@ -38,7 +38,7 @@ public class Bicycle {
 	public void slowDown(double sp) {
 		speed -= sp;
 	}
-	public void slowUp(double sp) {
+	public void speedUp(double sp) {
 		speed += sp;
 	}
 	

@@ -17,4 +17,7 @@ public class Circle {
 	public double findArea() {
 		return Math.PI*Math.pow(radius, 2);
 	}
+	public double findArea(double r) {
+		return Math.PI*Math.sqrt(r);
+	}
 }
