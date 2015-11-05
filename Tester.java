@@ -21,5 +21,18 @@ public class Tester {
 		System.out.println("The area of the cylinder circle is: " + cylinder.findArea());
 		System.out.println("The volume of the cylinder is: " + cylinder.findVolume());
 		System.out.println("The volume of the new cylinder is: " + cylinder.findVolume(2, 1));
+		// 5th NOV | test the abstract class
+		System.out.println();
+		Square sq = new Square();
+		System.out.println("Square area is: " + sq.findArea(sq.getLength(), sq.getWidth()));
+		// Test the interface
+		System.out.println();
+		Shark shark = new Shark();
+		shark.hunt();
+		shark.eat();
+		shark.swim();
+		shark.run();
+		shark.jump();
+		shark.hide();
 	}
 }
